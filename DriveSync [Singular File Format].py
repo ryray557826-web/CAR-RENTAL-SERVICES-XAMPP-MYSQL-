@@ -1437,3 +1437,4 @@ if __name__ == "__main__":
     win.showMaximized()
 
     sys.exit(app.exec_())
+
