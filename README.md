@@ -24,7 +24,8 @@ Pending Requests System: User-requested car changes go into a 'Pending' status, 
 
 #🛠️ Setup and Installation
 💾 Database Setup (SQL)
-You must run the following SQL code in your MySQL environment (phpMyAdmin, MySQL Workbench, etc.) to create the database and the necessary tables before running the Python application.
+You must run the following SQL code in your MySQL environment (phpMyAdmin, MySQL Workbench, etc.) 
+to create the database and the necessary tables before running the Python application.
 
 SQL
 -- 1. Create the database and select it
@@ -39,7 +40,7 @@ USE car_rental;
 CREATE DATABASE IF NOT EXISTS car_rental;
 USE car_rental;
 
--- 2. Create the tables
+-- 2. Create the tables:
 
 -- Users Table
 CREATE TABLE IF NOT EXISTS users (
